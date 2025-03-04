@@ -1,0 +1,279 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local osk_spam
+local osk = 1
+
+local function invis_chat(e)
+    local p = game:GetService("Players")
+    p:Chat(e)
+end
+
+local function bypass_chat()
+    invis_chat('EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE')
+    task.wait()
+    invis_chat('/e ABC')
+    task.wait()
+    invis_chat('le le le le le le le')
+    task.wait()
+    invis_chat('le le le le le')
+    task.wait()
+end
+
+local function say_msg(msg) -- ахуеть функция да
+    bypass_chat()
+    task.wait()
+    ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+end
+
+local Rayfield =loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+local Window = Rayfield:CreateWindow({
+    Name = "Lo1cked Hub",
+    Icon = 0,
+    LoadingTitle = "Welcome to the Loc1ked hub",
+    LoadingSubtitle = "by Loc1ked",
+    Theme = "Default",
+
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil,
+        FileName = "Big Hub"
+    },
+
+    Discord = {
+        Enabled = false,
+        Invite = "noinvitelink",
+        RememberJoins = true
+    },
+
+    KeySystem = false,
+    KeySettings = {
+        Title = "Fallce Loc1ked Hub",
+        Subtitle = "Loc1ked Key",
+        Note = "No method of obtaining the key is provided",
+        FileName = "Key",
+        SaveKey = true,
+        GrabKeyFromSite = false,
+        Key = {"Hello"}
+    }
+})
+
+local MainTab = Window:CreateTab("Main", 4483362458)
+
+MainTab:CreateToggle({
+    Name = "chat bypass loop",
+    CurrentValue = false,
+    Flag = "Toggle_chat_bypass",
+    Callback = function(Value)
+		while Value do
+            bypass_chat()
+            task.wait(0.1)
+        end
+    end,
+})
+
+MainTab:CreateToggle({
+    Name = "osk (b)",
+    CurrentValue = false,
+    Flag = "Toggle_osk_B",
+    Callback = function(Value)
+		print(Value)
+    end,
+})
+
+MainTab:CreateButton({
+    Name = "osk spam boy ver.",
+    Callback = function()
+        print("hello")
+    end,
+})
+
+MainTab:CreateToggle({
+    Name = "osk spam (m)",
+    CurrentValue = false,
+    Flag = "Toggle_osk_M",
+    Callback = function(Value)
+    osk_spam = Value
+    while osk_spam do
+        if osk == 1 and osk_spam then
+            say_msg("ты че блять подзалупян чернохуептический дегеренат")
+            task.wait(5)
+            osk = 2
+        elseif osk == 2 and osk_spam then
+            say_msg("я те нормально говорю далбаеб назад в пизду засунутый блять")
+            task.wait(5)
+            osk = 3
+        elseif osk == 3 and osk_spam then
+            say_msg("уворачивайся от моей запы чернохуильный слабый хуесос")
+            task.wait(5)
+            osk = 4
+        elseif osk == 4 and osk_spam then
+            say_msg("Але блять индивид сколько ты еще будешь пиздиться у меня под ногами спермобакище недоебанное")
+            task.wait(5)
+            osk = 5
+        
+        elseif osk == 5 and osk_spam then
+            say_msg("я щас твоей потаскухо шлюхо матери череп хуем пробью и кину твоего батька под мотор катамарана")
+            task.wait(5)
+            osk = 6
+        elseif osk == 6 and osk_spam then
+            say_msg("блять позорище ёбаное давай поплачь еще под моими ножками свинорыльник бездарьный")
+            task.wait(5)
+            osk = 7
+        elseif osk == 7 and osk_spam then
+            say_msg("ты нищее дегереративное утребье я же кончу твоей мамаше на могилу")
+            task.wait(5)
+            osk = 8
+        elseif osk == 8 and osk_spam then
+            say_msg("терпилоид блядский че ты там плачешь я щас твой свиноебальник буду своим дилдаком те по губе стучать")
+            task.wait(5)
+            osk = 9
+        elseif osk == 9 and osk_spam then
+            say_msg("пидорас гавномазый аукционный безмозглый далбаеб я те щас реально ебальник зачищу своим гига дилдаком")
+            task.wait(5)
+            osk = 10
+        elseif osk == 10 and osk_spam then
+            say_msg("свинская подзалупная хуйлуша сколько ты еще будешь мне сосировать по кд не желая дать отпора щеночек из напора моей спермы")
+            task.wait(5)
+            osk = 11
+        elseif osk == 11 and osk_spam then
+            say_msg("пидор скуфезный нахуй я тя щас на хуй повешу как на удочку блять",  "All")
+            task.wait(5)
+            osk = 12
+        elseif osk == 12 and osk_spam then
+            say_msg("я щас с мексиканским картелем выезжаю к тебе на хату ебать твою свино маму")
+            task.wait(5)
+            osk = 13
+        elseif osk == 13 and osk_spam then
+            say_msg("на ран за гантлит сняли видео как мы ее потрошили нахуй")
+            task.wait(5)
+            osk = 14
+        elseif osk == 14 and osk_spam then
+            say_msg("Але нахуй кастрированный хуесос долго ты будешь со своей свино мамашей делать мне по кд минет инфоцыган беззубый")
+            task.wait(5)
+            osk = 15
+        elseif osk == 15 and osk_spam then 
+            say_msg("шлюхенция прими уже что ты нищий сын шаболды которая по кд шумит мне своими губами на моем хуе")
+            task.wait(5)
+            osk = 16
+        elseif osk == 16 and osk_spam then
+            say_msg("хуесос патлатный ты же даже не в силе дать отпора бездарь подзаборный")
+            task.wait(5)
+            osk = 17
+        elseif osk == 17 and osk_spam then
+            say_msg("свинота ёбаная как своя жирно мамаша которой я запугал вагину своим мега хуем")
+            task.wait(5)
+            osk = 18 
+        elseif osk == 18 and osk_spam then
+            say_msg("объясняю те хуесосу почему я твою маму в гланды отьебал пока она на мой хуй молилась блять ёбаная бедность не желая дать отпора")
+            task.wait(5)
+            osk = 19
+        elseif osk == 19 and osk_spam then
+            say_msg("так ты же нищее дегереративное утребье которое в очко долбил прадед")
+            task.wait(5)
+            osk = 20 
+        elseif osk == 20 and osk_spam then
+            say_msg("твоя бабка колясочница делала мне минет за пачку сухариков ибо она шлюха которая во всем подражает твоей свино маме")
+            task.wait(5)
+            osk = 21
+        elseif osk == 21 and osk_spam then
+            say_msg("пхахаха какой же ты слабый хуесос без какой либо мне противоречи я же заживо сожру тя по текстам")
+            task.wait(5)
+            osk = 22
+        elseif osk == 22 and osk_spam then 
+            say_msg("ёбаная бедность нахуй я тя щас на презерватив повешу как на хуек блять")
+            task.wait(5)
+            osk = 23
+        elseif osk == 23 and osk_spam then
+            say_msg("ауу нахуй я здесь терпилоид ебаный давай свой гнидский отпор пока я те не начал швабру в очко сувать")
+            task.wait(5)
+            osk = 24
+        elseif osk == 24 and osk_spam then 
+            say_msg("ахэаххаэа какой же ты слабый блять индивид из кусочка моей спермы ну долго ты будешь терпеть мои аргументы терпилоид?")
+            task.wait(5)
+            osk = 25
+        elseif osk == 25 and osk_spam then
+            say_msg("свинья сколько ты еще раз будешь глотать мой хуй раз за разом ты же мой хуераб которого я буквально пиздю ногами каждую секунду этого спора")
+            task.wait(5)
+            osk = 26
+        elseif osk == 26 and osk_spam then
+            say_msg("шлюхенция я щас твоего алкаша батька кастрирую и его член тебе в жопу затолкаю и молотком с гвоздями пригвоздю нахуй")
+            task.wait(5)
+            osk = 27
+        elseif osk == 27 and osk_spam then
+            say_msg("сынуля куртизанской шлюхи я же отправлю на твою хату игиловцах на камеру снимут как вырезают глотку твоей свино матухе")
+            task.wait(5)
+            osk = 28
+        elseif osk == 28 and osk_spam then 
+            say_msg("нищее дегереративное животное с ай-кью Ивана золо я щас твоей потаскухо шлюхи матери череп хуем пробью и кину твоего батька через реку")
+            task.wait(5)
+            osk = 29
+        elseif osk == 29 and osk_spam then
+            say_msg("Але нахуй свиноподобный ебанат че ты там плачешь от собственной невьебучести я же с ног до головы тебя отпиздил своими текстами")
+            task.wait(5)
+            osk = 30
+        elseif osk == 30 and osk_spam then
+            say_msg("очкаридзе давай сосируй мне тут по кд пока я тя в гланды не отьебал своим биг диком")
+            task.wait(5)
+            osk = 31 
+        elseif osk == 31 and osk_spam then
+            say_msg("блять я вахуе с такого гамункула как ты блять ты же понимаешь что ты маленькая лысая пизденка из куска моего члена которое не желает мне что то противоречить")
+            task.wait(5)
+            osk = 32
+        elseif osk == 32 and osk_spam then
+            say_msg("ну че ты терпилоид блядский я щас твоей бабке колясочница буду ее старый лобешник хуярить 100 метровым дилдаком блять ты же нищее отсталое животное с ай-кью Ивана золо")
+            task.wait(5)
+            osk = 33
+        elseif osk == 33 and osk_spam then
+            say_msg("Але нахуй пердокрыльный хуила я же вижу что ты меня боишься и темболее что то мне сказать блять что ты мне можешь противопоставить хуесос патлатный")
+            task.wait(5)
+            osk = 34
+        elseif osk == 34 and osk_spam then 
+            say_msg("дегеренат блядохуильный я щас буду твой гнилой ебальник массировать своим хуем сирота беззубая тебя уже в данной конференции пустили по кругу")
+            task.wait(5)
+            osk = 35
+        elseif osk == 35 and osk_spam then
+            say_msg("головка от моего хуя ты же не выдерживаешь мои текста и уже плачешь мне во всю я же отбелил твоей мамаше зубы своей спермой")
+            task.wait(5)
+            osk = 36
+        elseif osk == 36 and osk_spam then
+            say_msg("блядо аукционный пидорас я же вьебал те с ног в твой свино ебальник ты уже свое смарзливое ебало скривил на 180 от такого удара")
+            task.wait(5)
+            osk = 37
+        elseif osk == 37 and osk_spam then
+            say_msg("блять але сын свиноматки ебированной всей калифорнии что ты тут мне пиздишь")
+            task.wait(5)
+            osk = 38
+        elseif osk == 38 and osk_spam then
+            say_msg("сынуля жирной шаболды нахуй давай вылизывай потные яйца своего жирного небритого отчима")
+            task.wait(5)
+            osk = 39
+        elseif osk == 39 and osk_spam then
+            say_msg("перхоть подзалупная что ты мне можешь противопоставить  я щас с бразильским картелем выезжаю к тебе на хату убиваем твою шваль мамашу жирную")
+            task.wait(5)
+            osk = 40
+        elseif osk == 40 and osk_spam then
+            say_msg("на ран же гантлит сняли видео как мы ее потрошили нахуй")
+            task.wait(5)
+            osk = 41
+        elseif osk == 41 and osk_spam then
+            say_msg("отрыжка папиного хуя давай уже втопи ебало вылизывай древнегреческий клитор своей толсто шлюхи матери")
+            task.wait(5)
+            osk = 42
+        elseif osk == 42 and osk_spam then
+            say_msg("я же разрублю тя напополам нищий сын полумертвого коня")
+            task.wait(5)
+            osk = 43
+        elseif osk == 43 and osk_spam then
+            say_msg("поебированная выблядь просто признай что ты слаб и я тя отпинал ногами")
+            task.wait(5)
+            osk = 44
+        elseif osk == 44 and osk_spam then
+            say_msg("блять впринципе твоя родословная живет тем что сосет огромные дилдаком как и ты сын шельмы ебаной")
+            task.wait(5)
+            osk = 1 
+        end
+        task.wait(0.1)
+    end
+end})
